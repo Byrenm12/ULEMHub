@@ -1,0 +1,13 @@
+.outer-container{}
+.heater1{
+    display: flex;
+    justify-content: space-between;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+}
+.header3{
+display: flex;
+justify-content: space-between;
+}
