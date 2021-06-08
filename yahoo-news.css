@@ -3,43 +3,107 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root {
+    --bor: 1px solid grey;
+}
 .container {
     width: 100vw;
     height: 100vh;
 }
-
 .header1 {
     display: flex;
+    height: 20px;
+    color: white;
+    background-color: #201152;
     justify-content: space-between;
-    border: 3px solid orange;
 }
-
-.header2 {
+.header1 .left-side {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.header1 .right-side {
     display: flex;
     justify-content: space-between;
-    border: 3px dotted green;
-    height: 100px;
 }
-.header2 img{
-    width: 90px;
-    height: 90px;
+.header2 {
+    display: flex;
+    height: 70px;
+    color: white;
+    padding: 0 150px;
+    justify-content: space-between;
+}
+.header2 .left-side {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header2 div > img:nth-child(1) {
+    width: 50px;
+    height: 50px;
+}
+.header2 input:nth-child(2) {
+    width: 306px;
+    height: 33px;
+    margin-left: 55px;
+}
+.header2 input:nth-child(3) {
+    width: 141px;
+    height: 33px;
+    background-color: #363580;
+}
+
+.header2 input:nth-child(4) {
+    width: 141px;
+    height: 33px;
+    background-color: #0179ff;
+}
+.header2 .right-side {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+/* mail icon */
+.header2 .right-side > img:nth-child(1) {
+    width: 20px;
+    height: 20px;
+}
+/* envelope */
+.header2 .right-side > img:nth-child(3) {
+    width: 10px;
+    height: 10px;
 }
 
 .header3 {
     display: flex;
-    justify-content: space-between;  /* This controls both children */
-    border: 3px solid red;
+    height: 42px;
+    color: black;
+    padding: 0 150px;
+    justify-content: space-between;
+    align-items: center;
 }
-.news-header3{
+.header3 div:nth-child(2) > p {
+    margin-right: 20px;
+}
+.header3 > div:nth-child(2) img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.header3 .left-side {
     display: flex;
-    justify-content: center;
-    margin: 20px;  /* Left side of the container */
+    width: 60%;
+    justify-content: space-between;
+}
+.header3 .right-side {
+    display: flex;
+    justify-content: space-between;
 }
 
-.news-header3 > div {
-    margin-right: 10px;
-}
 .contact{
     display: flex;
     justify-content: flex-end;
@@ -54,44 +118,31 @@
 }
 .ad-box {
     display: flex;
-    justify-content: space-between;
-    border: 3px solid purple;
-    margin: 50px;
+    margin:  0 50px;
 }
 
 .ad-box img:nth-child(1) {
-    width: 50px;
-    height: 50px;
-}
-.box1{
-    background-color: deeppink;
-    width: 50%;
+    width: 455px;
+    height: 238px;
 }
 
-.box2{
-    background-color: hotpink;
-    width: 50%;
-}
 
 .content-box {
     display: flex;
     justify-content: space-around;
-    border: 3px solid yellow;
-    margin: 50px;
-}
-.box3{
-    background-color: aqua;
-
+    margin: 0 50px;
 }
 
-.box4{
-    background-color: lightseagreen;
-
+.content-box div:nth-child(1) img{
+    width: 538px;
+    height: 238px;
 }
 
-.box5{
-    background-color: darkgreen;
-
+.content-box div:nth-child(2) p,
+.content-box div:nth-child(2) input
+{
+    width: 233px;
+    height: 238px;
 }
 
 .house{
@@ -100,8 +151,8 @@
 }
 
 .envelope {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .contact img:nth-child(1) {
