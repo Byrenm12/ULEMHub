@@ -16,10 +16,21 @@
     line-height: 39px;
     font-weight: 800;
     font-style: normal;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.header1 img:nth-child(1){
+    height: 12px;
+    margin-top:12px;
+    margin-right: 10px;
 }
 .header2{
     display: flex;
     justify-content: space-between;
+}
+.header2 img:nth-child(1){
+    width: 200px ;
+    height:32px;
 }
 .yahoo-image{
     width:50px;
