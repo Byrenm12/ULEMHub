@@ -27,6 +27,7 @@
 .header2{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header2 img:nth-child(1){
     width: 200px ;
@@ -47,9 +48,10 @@
     border: #188FFF;
     width: 82px;
     height: 45px;
+    margin-left: -8px;
 }
 .button2{
-    border-radius: 50%;
+    border-radius: 50px;
     font-family:"YahooSans VF", YahooSans, "Helvetica Neue", Helvetica, Tahoma, Geneva, Arial, sans-serif;
     font-weight:600;
     font-style: normal;
