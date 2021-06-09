@@ -16,10 +16,22 @@
     line-height: 39px;
     font-weight: 800;
     font-style: normal;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.header1 img:nth-child(1){
+    height: 12px;
+    margin-top:12px;
+    margin-right: 10px;
 }
 .header2{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.header2 img:nth-child(1){
+    width: 200px ;
+    height:32px;
 }
 .yahoo-image{
     width:50px;
@@ -29,6 +41,7 @@
     height: 45px;
     width: 560px;
     border-radius: 4px;
+    border-color: #188FFF;
 }
 .button1{
     background-color: #188FFF;
@@ -36,9 +49,10 @@
     border: #188FFF;
     width: 82px;
     height: 45px;
+    margin-left: -8px;
 }
 .button2{
-    border-radius: 50%;
+    border-radius: 50px;
     font-family:"YahooSans VF", YahooSans, "Helvetica Neue", Helvetica, Tahoma, Geneva, Arial, sans-serif;
     font-weight:600;
     font-style: normal;
@@ -46,6 +60,7 @@
     background-color: #FFFFFF;
     border-color:#6001d2;
     line-height: 18px;
+    color: #6001D2;
 }
 
 .header3{
@@ -63,10 +78,16 @@ font-weight: 600;
 #update-section div h3:nth-child(1){
 }
 #update-section div h1:nth-child(2){
+    font-family: YahooSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #232A31;
+}
+#update-section div p{
+    font-family: YahooSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #5D656C;
 
 }
-#image2 {
-    height:1px;
-    width:1px;
+.main-image1 {
+    height:px
+    width:1px
 }
 
