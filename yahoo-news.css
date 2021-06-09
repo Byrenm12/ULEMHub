@@ -96,12 +96,25 @@
 }
 .header3 .left-side {
     display: flex;
-    width: 60%;
+    width: 70%;
     justify-content: space-between;
+    font-family: YahooSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
 }
 .header3 .right-side {
     display: flex;
     justify-content: space-between;
+    width:10%;
+}
+.right-side div p:nth-child(1){
+
+}
+.header3 .icons{
+    display: flex;
+    width: 20%;
 }
 
 .contact{
@@ -119,13 +132,36 @@
 .ad-box {
     display: flex;
     margin:  0 50px;
+    position: relative;
+    background-color: silver;
 }
-
 .ad-box img:nth-child(1) {
     width: 455px;
     height: 238px;
 }
+.ad-box div:nth-child(2){
+    margin: 40px;
+}
+.box2 h1:nth-child(1){
+    position: absolute;
+    left: 500px;
+    top: 60px;
+}
+.box2 p:nth-child(2){
+    position: absolute;
+    left: 500px;
+    top: 100px;}
+.box2 input:nth-child(3){
+    position: absolute;
+    left: 500px;
+    top: 130px;
+    border-radius: 30px;
+    background-color: #6001d2;
+    border-color: #6001d2;
+    width: 82px;
+    height: 30px;
 
+}
 
 .content-box {
     display: flex;
