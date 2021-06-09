@@ -41,6 +41,7 @@
     height: 45px;
     width: 560px;
     border-radius: 4px;
+    border-color: #188FFF;
 }
 .button1{
     background-color: #188FFF;
@@ -59,6 +60,7 @@
     background-color: #FFFFFF;
     border-color:#6001d2;
     line-height: 18px;
+    color: #6001D2;
 }
 
 .header3{
@@ -76,10 +78,16 @@ font-weight: 600;
 #update-section div h3:nth-child(1){
 }
 #update-section div h1:nth-child(2){
+    font-family: YahooSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #232A31;
+}
+#update-section div p{
+    font-family: YahooSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #5D656C;
 
 }
-#image2 {
-    height:1px;
-    width:1px;
+.main-image1 {
+    height:px
+    width:1px
 }
 
