@@ -21,10 +21,12 @@
     display: flex;
     width: 60%;
     justify-content: space-between;
+
 }
 .header1 .right-side {
     display: flex;
     justify-content: space-between;
+
 }
 .header2 {
     display: flex;
@@ -41,8 +43,8 @@
     align-items: center;
 }
 .header2 div > img:nth-child(1) {
-    width: 50px;
-    height: 50px;
+    width: 93px;
+    height: 34px;
 }
 .header2 input:nth-child(2) {
     width: 306px;
@@ -53,12 +55,14 @@
     width: 141px;
     height: 33px;
     background-color: #363580;
+    margin-left: 7px;
 }
 
 .header2 input:nth-child(4) {
     width: 141px;
     height: 33px;
     background-color: #0179ff;
+    margin-left: 7px;
 }
 .header2 .right-side {
     display: flex;
@@ -69,13 +73,13 @@
 }
 /* mail icon */
 .header2 .right-side > img:nth-child(1) {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 }
 /* envelope */
 .header2 .right-side > img:nth-child(3) {
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
 }
 
 .header3 {
