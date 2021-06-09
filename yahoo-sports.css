@@ -124,7 +124,7 @@ html {
 .header4 div:nth-child(5),
 .header4 div:nth-child(6)
 {
-    width: 179.23px;
+    width: 179px;
     height: 100px;
     border:var(--bor);
     position: relative;
@@ -135,7 +135,7 @@ html {
 .header4 div:nth-child(8),
 .header4 div:nth-child(9),
 .header4 div:nth-child(10) {
-    width: 179.23px;
+    width: 179px;
     height: 100px;
     border: var(--bor);
     position: relative;
@@ -145,7 +145,7 @@ html {
 
 /* the last group is only half as wide */
 .header4 div:nth-child(11) {
-    width: 90.97px;
+    width: 91px;
     height: 100px;
     border:var(--bor);
     position: relative;
@@ -276,7 +276,7 @@ html {
     width: 207px;
     height: 116px;
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 831px;
 }
 .content-box > img:nth-child(3) {
