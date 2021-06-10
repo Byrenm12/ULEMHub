@@ -1,5 +1,4 @@
 - Problem
-  collapsed:: true
 	- It's a normal page called [[Contents]], you can use it for:
 	- 1. table of content/index/MOC
 	- 2. pinning/bookmarking favorites pages/blocks (e.g. [[Logseq]])
