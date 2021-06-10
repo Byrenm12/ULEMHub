@@ -8,8 +8,8 @@
     --bor: 1px solid grey;
 }
 .container {
-    width: 1200px;
-    height: 950px;
+    width: 100vw;
+    height: 100vh;
 }
 .header1 {
     display: flex;
@@ -22,12 +22,10 @@
     display: flex;
     width: 60%;
     justify-content: space-between;
-
 }
 .header1 .right-side {
     display: flex;
     justify-content: space-between;
-
 }
 .header2 {
     display: flex;
@@ -44,8 +42,8 @@
     align-items: center;
 }
 .header2 div > img:nth-child(1) {
-    width: 93px;
-    height: 34px;
+    width: 50px;
+    height: 50px;
 }
 .header2 input:nth-child(2) {
     width: 306px;
@@ -56,14 +54,12 @@
     width: 141px;
     height: 33px;
     background-color: #363580;
-    margin-left: 7px;
 }
 
 .header2 input:nth-child(4) {
     width: 141px;
     height: 33px;
     background-color: #0179ff;
-    margin-left: 7px;
 }
 .header2 .right-side {
     display: flex;
@@ -72,20 +68,15 @@
     align-items: center;
     justify-content: space-between;
 }
-/*.header2 .right-side div:nth-child(2) p,*/
-/*.header2 .right-side div:nth-child(4) p{*/
-/*    color: black;*/
-/*}*/
-
 /* mail icon */
 .header2 .right-side > img:nth-child(1) {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 }
 /* envelope */
 .header2 .right-side > img:nth-child(3) {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
 }
 
 .header3 {
@@ -198,4 +189,3 @@
     bottom: 165px;
 
 }
-

@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    width:110%;
-}
-
 :root {
     --bor: 1px solid grey;
 }
@@ -276,7 +272,6 @@ html {
     width: 207px;
     height: 116px;
     position: absolute;
-    top: 0;
     left: 831px;
 }
 .content-box > img:nth-child(3) {
@@ -296,6 +291,7 @@ html {
 
 .content-box > .headline-box {
     position: absolute;
+
     left: 1050px;
 }
 
@@ -304,6 +300,7 @@ html {
     height: 20px;
 }
 
+
 .headline-box{
     margin-left: 20px;
     font-family: "Yahoo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -311,6 +308,7 @@ html {
     font-size: 13px;
 
 }
+
 .headline-box img {
     position: relative;
     top: 50px;
@@ -321,7 +319,6 @@ html {
     position: relative;
     left: 50px;
     top: 20px;
-
 }
 
 

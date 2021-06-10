@@ -1,4 +1,18 @@
 
+
+.heater1{
+    display: flex;
+    justify-content: space-between;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+}
+.header3{
+display: flex;
+justify-content: space-between;
+}
+
 .container-fluid{
     margin: 0;
     background-color: #FFFFFF;
@@ -90,4 +104,3 @@ font-weight: 600;
     height:px
     width:1px
 }
-
